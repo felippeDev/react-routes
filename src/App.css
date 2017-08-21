@@ -41,6 +41,31 @@
   color: #5ED2F1;
 }
 
+.App .teamList {
+  width: 100%;
+  display: table;
+  background-color: #333;
+  text-align: left;
+  border-top: 4px solid #222;
+  border-bottom: 4px solid #222;
+}
+
+.App .teamList ul li {
+  list-style: none;
+  display: list-item;
+  margin: 1em;
+}
+
+.App .teamList ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 0 1em 0;
+}
+
+.App .teamList ul li a:hover {
+  color: #5ED2F1;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
